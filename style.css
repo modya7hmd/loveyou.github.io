@@ -1,0 +1,33 @@
+/* CSS code to create a romantic look */
+
+/* Set background color and font styles */
+body {
+    background-color: #f7e6e6;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the heading */
+  h1 {
+    color: #ff4d4d;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  /* Style the paragraphs */
+  p {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Add a heart symbol */
+  p::after {
+    content: "\2764";
+    font-size: 48px;
+    color: #ff4d4d;
+    display: block;
+    margin: 20px auto;
+  }
+  
